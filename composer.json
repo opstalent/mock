@@ -1,0 +1,21 @@
+{
+    "name": "opstalent/mock",
+    "description": "PHP mock tools component",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Patryk Grudniewski",
+            "email": "patgrudniewski@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-0": {
+            "Opstalent\\Mock": ""
+        },
+        "psr-4": {
+            "Opstalent\\Mock\\": ""
+        }
+    }
+}
