@@ -9,7 +9,12 @@
             "email": "patgrudniewski@gmail.com"
         }
     ],
-    "require": {},
+    "require": {
+        "mockery/mockery": "^0.9.9",
+        "symfony/http-foundation": "^3.3",
+        "symfony/routing": "^3.3",
+        "symfony/security": "^3.3"
+    },
     "autoload": {
         "psr-0": {
             "Opstalent\\Mock": ""
